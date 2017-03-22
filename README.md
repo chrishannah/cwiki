@@ -14,6 +14,6 @@ Then you can run a wikipedia search by typing `cwiki` followed by your query (If
 
 ## Demo
 
-![Demo](http://i.imgur.com/yAmKbWo.gifv)
+![Demo](https://github.com/chrishannah/cwiki/blob/master/cwiki.gif?raw=true)
 
 
