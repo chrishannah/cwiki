@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D6E9BFD1E8340B6008A61EF /* Wiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E9BFC1E8340B6008A61EF /* Wiki.swift */; };
+		9D6E9BFF1E8340D3008A61EF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E9BFE1E8340D3008A61EF /* README.md */; };
 		9DCB183B1E8285F800571D9B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB183A1E8285F800571D9B /* main.swift */; };
-		9DCB18441E82864300571D9B /* Wiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB18431E82864300571D9B /* Wiki.swift */; };
 		9DCB18461E82897400571D9B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB18451E82897400571D9B /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D6E9BFC1E8340B6008A61EF /* Wiki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wiki.swift; sourceTree = "<group>"; };
+		9D6E9BFE1E8340D3008A61EF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9DCB18371E8285F800571D9B /* cwiki */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cwiki; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCB183A1E8285F800571D9B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9DCB18431E82864300571D9B /* Wiki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wiki.swift; path = ../Wiki.swift; sourceTree = "<group>"; };
 		9DCB18451E82897400571D9B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 		9DCB182E1E8285F800571D9B = {
 			isa = PBXGroup;
 			children = (
+				9D6E9BFE1E8340D3008A61EF /* README.md */,
 				9DCB18391E8285F800571D9B /* Command Wiki */,
 				9DCB18381E8285F800571D9B /* Products */,
 			);
@@ -61,8 +64,8 @@
 		9DCB18391E8285F800571D9B /* Command Wiki */ = {
 			isa = PBXGroup;
 			children = (
+				9D6E9BFC1E8340B6008A61EF /* Wiki.swift */,
 				9DCB183A1E8285F800571D9B /* main.swift */,
-				9DCB18431E82864300571D9B /* Wiki.swift */,
 				9DCB18451E82897400571D9B /* SwiftyJSON.swift */,
 			);
 			path = "Command Wiki";
@@ -128,7 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCB183B1E8285F800571D9B /* main.swift in Sources */,
-				9DCB18441E82864300571D9B /* Wiki.swift in Sources */,
+				9D6E9BFD1E8340B6008A61EF /* Wiki.swift in Sources */,
+				9D6E9BFF1E8340D3008A61EF /* README.md in Sources */,
 				9DCB18461E82897400571D9B /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +265,7 @@
 				9DCB18401E8285F800571D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
