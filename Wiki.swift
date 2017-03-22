@@ -47,7 +47,6 @@ class Wiki {
                     for (_,subJson):(String, JSON) in jsonResult[3] {
                         urlArray.append(subJson.string!)
                     }
-                    print(titleArray)
                     for i in 0..<titleArray.count {
                         let result = WikiResult(title: titleArray[i], text: descriptionArray[i], url: urlArray[i])
                         results.append(result)
