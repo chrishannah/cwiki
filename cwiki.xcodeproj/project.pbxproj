@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9DCB183B1E8285F800571D9B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB183A1E8285F800571D9B /* main.swift */; };
+		9DCB18441E82864300571D9B /* Wiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB18431E82864300571D9B /* Wiki.swift */; };
+		9DCB18461E82897400571D9B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB18451E82897400571D9B /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9DCB18371E8285F800571D9B /* Command Wiki */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Command Wiki"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCB18371E8285F800571D9B /* cwiki */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cwiki; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCB183A1E8285F800571D9B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9DCB18431E82864300571D9B /* Wiki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wiki.swift; path = ../Wiki.swift; sourceTree = "<group>"; };
+		9DCB18451E82897400571D9B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +53,7 @@
 		9DCB18381E8285F800571D9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DCB18371E8285F800571D9B /* Command Wiki */,
+				9DCB18371E8285F800571D9B /* cwiki */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				9DCB183A1E8285F800571D9B /* main.swift */,
+				9DCB18431E82864300571D9B /* Wiki.swift */,
+				9DCB18451E82897400571D9B /* SwiftyJSON.swift */,
 			);
 			path = "Command Wiki";
 			sourceTree = "<group>";
@@ -65,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DCB18361E8285F800571D9B /* Command Wiki */ = {
+		9DCB18361E8285F800571D9B /* cwiki */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCB183E1E8285F800571D9B /* Build configuration list for PBXNativeTarget "Command Wiki" */;
+			buildConfigurationList = 9DCB183E1E8285F800571D9B /* Build configuration list for PBXNativeTarget "cwiki" */;
 			buildPhases = (
 				9DCB18331E8285F800571D9B /* Sources */,
 				9DCB18341E8285F800571D9B /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "Command Wiki";
+			name = cwiki;
 			productName = "Command Wiki";
-			productReference = 9DCB18371E8285F800571D9B /* Command Wiki */;
+			productReference = 9DCB18371E8285F800571D9B /* cwiki */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DCB18321E8285F800571D9B /* Build configuration list for PBXProject "Command Wiki" */;
+			buildConfigurationList = 9DCB18321E8285F800571D9B /* Build configuration list for PBXProject "cwiki" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DCB18361E8285F800571D9B /* Command Wiki */,
+				9DCB18361E8285F800571D9B /* cwiki */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCB183B1E8285F800571D9B /* main.swift in Sources */,
+				9DCB18441E82864300571D9B /* Wiki.swift in Sources */,
+				9DCB18461E82897400571D9B /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +245,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DCB18321E8285F800571D9B /* Build configuration list for PBXProject "Command Wiki" */ = {
+		9DCB18321E8285F800571D9B /* Build configuration list for PBXProject "cwiki" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCB183C1E8285F800571D9B /* Debug */,
@@ -246,7 +254,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DCB183E1E8285F800571D9B /* Build configuration list for PBXNativeTarget "Command Wiki" */ = {
+		9DCB183E1E8285F800571D9B /* Build configuration list for PBXNativeTarget "cwiki" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCB183F1E8285F800571D9B /* Debug */,

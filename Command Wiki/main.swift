@@ -8,5 +8,18 @@
 
 import Foundation
 
-print("Hello, World!")
+let wiki = Wiki()
+
+if CommandLine.arguments.count == 2 {
+    let query = CommandLine.arguments[1]
+    let results = wiki.searchWikipedia(query)
+    for result in results {
+        print("📘 " + result.title)
+        print("📖 " + result.text)
+        print("🌍 " + result.url)
+        print("")
+    }
+} else {
+    print("Use the command with the one argument wrapped in quotation marks for the search query.")
+}
 
